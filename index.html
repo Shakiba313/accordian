@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .container{
+            margin-left: auto;
+            margin-right:auto ;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-color: #cad2d2;
+            padding: 35px;
+            width:450px;
+            /* height: 450px; */
+            margin-top: 60px;
+        }
+        .container h1{
+            margin-top: 0;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .boxes{
+           
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+       
+        #box1,#box2,#box3{
+            margin-top: 20px;
+            box-shadow: 1px 1px 10px 0px #545151c9;
+            padding: 15px 45px;
+            background-color: #fff;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+         #sign1,#sign2,#sign3{
+            padding-left:16em;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        #sign1:hover{
+            color: #788585;
+        }
+        #sign2:hover{
+            color: #788585;
+        }
+        #sign3:hover{
+            color: #788585;
+        }
+       
+        p{
+            font-size: 18px;
+        }
+        .text{
+            display: none;
+            
+        }
+        #hidenIcon1,#hidenIcon2,#hidenIcon3{
+            display: none;
+            cursor: pointer;
+        }
+        @media(max-width:34em){
+            .container{
+                margin-left: auto;
+            margin-right:auto ;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-color: #cad2d2;
+            padding: 20px;
+            width: 250px;
+            /* height: 450px; */
+            margin-top: 100px;
+            }
+            .container h1{
+            margin-top: 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #box1,#box2,#box3{
+            margin-top: 10px;
+            box-shadow: 1px 1px 10px 0px #545151c9;
+            padding: 5px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        #sign1,#sign2,#sign3{
+            padding-left:11em;
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <h1>General Questions</h1>
+        <div class="boxes">
+            <div id="box1">
+                <div class="flex">
+                    <p>How have you studied programing?</p>
+                    <svg id="sign1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                    <svg id="hidenIcon1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" />
+                      </svg>     
+                </div>
+                  <div class="text" id="text1">
+                    <hr>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto vel illum quis ut molestias. Ipsum modi ex consectetur distinctio, corrupti enim neque laudantium impedit nam accusamus eos. Consequatur, obcaecati.</p>
+                </div>
+            </div>
+              <div id="box1">
+                <div class="flex">
+                    <p>How have you studied programing?</p>
+                    <svg id="sign2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                    <svg id="hidenIcon2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" />
+                      </svg>     
+                </div>
+                  <div class="text" id="text2">
+                     <hr>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto vel illum quis ut molestias. Ipsum modi ex consectetur distinctio, corrupti enim neque laudantium impedit nam accusamus eos. Consequatur, obcaecati.</p>
+                </div>
+            </div>
+               <div id="box1">
+                <div class="flex">
+                    <p>How have you studied programing?</p>
+                    <svg id="sign3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                    <svg id="hidenIcon3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6" width="40" height="30">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" />
+                      </svg>
+                </div>
+                    <div class="text" id="text3">
+                      <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iusto vel illum quis ut molestias. Ipsum modi ex consectetur distinctio, corrupti enim neque laudantium impedit nam accusamus eos. Consequatur, obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
